@@ -39,6 +39,12 @@ h1 {
     letter-spacing: 2px;
 }
 
+h2 {
+    color: black;
+    font-size: 36px;
+    padding-bottom: 15px;
+}
+
 h3 {
     font-size: 30px;
     color:#7cbb02;
@@ -46,7 +52,7 @@ h3 {
 
 h4 {
     color: black;
-    font-size: 24px;
+    font-size: 26px;
     padding-top: 1.6%;
 }
 
@@ -172,7 +178,7 @@ header {
     line-height: 35px;
 }
 .description-text {
-    font-size: 18px;
+    font-size: 20px;
     color: grey;
     padding-bottom: 20px;
 }
@@ -180,20 +186,17 @@ header {
 
 .container:nth-child(2) {
     height: 1200px;
-    background-color: hotpink;
     width: 75%;
 }
 /* SEZIONE SUPERIORE */
 .upper-section {
     height: 50%;
-    background-color: indigo;
 }
 
 .upper-section > .box{
     position: relative;
     height: 100%;
     width: 30%;
-    background-color: brown;
     text-align: center;
     vertical-align: middle;
 }
@@ -218,7 +221,6 @@ header {
     position: relative;
     height: 100%;
     width: 48%;
-    background-color: khaki;
     text-align: center;
     vertical-align: middle;
 }
@@ -229,6 +231,10 @@ header {
 }
 
 .lower-section > .box.float-right {
-    padding: 3% 17% 13% 5%;
+    padding: 3% 9% 13% 5%;
     text-align: left;
+}
+
+.container:nth-child(3) {
+    
 }
