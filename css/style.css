@@ -39,10 +39,21 @@ h1 {
     letter-spacing: 2px;
 }
 
+h3 {
+    font-size: 30px;
+    color:#7cbb02;
+}
+
 h4 {
     color: black;
     font-size: 24px;
     padding-top: 1.6%;
+}
+
+.hr_box {
+    width: 85px;
+    margin: 5% auto;
+    border: 1px solid lightgrey;
 }
 
 /* HEADER */
@@ -161,14 +172,16 @@ header {
     line-height: 35px;
 }
 .description-text {
+    font-size: 18px;
     color: grey;
+    padding-bottom: 20px;
 }
 /* /BANNER INTRO */
 
 .container:nth-child(2) {
-    height: 1100px;
+    height: 1200px;
     background-color: hotpink;
-    width: 80%;
+    width: 75%;
 }
 
 .upper-section {
@@ -181,8 +194,16 @@ header {
     height: 100%;
     width: 30%;
     background-color: brown;
+    text-align: center;
+    vertical-align: middle;
 }
 .box.float-left {
     margin-right: 5%;
 }
 
+.icon {
+    display: block;
+    height: 35%;
+    width: auto;
+    margin: 6% auto;
+}
