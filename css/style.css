@@ -34,15 +34,15 @@ body {
 h1 {
     color: white;
     font-size: 55px;
-    font-weight: 600;
+    font-weight: 550;
     margin-bottom: 30px;
     letter-spacing: 2px;
 }
 
-h3 {
+h4 {
     color: black;
-    font-size: 25px;
-    font-weight: 600px;
+    font-size: 24px;
+    padding-top: 1.6%;
 }
 
 /* HEADER */
@@ -147,11 +147,42 @@ header {
     left: 0;
     transform: translateY(-50%)
 }
-
 /* /HEADER */
-.intro {
+
+/* BANNER INTRO */
+.grey-banner {
     height: 130px; /* da modificare in seguito */
-    background-color: grey;
-    text-align: center;
-    line-height: 65px;
+    background-color: lightgrey;
 }
+.grey-banner > .text {
+    height : 130px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 35px;
+}
+.description-text {
+    color: grey;
+}
+/* /BANNER INTRO */
+
+.container:nth-child(2) {
+    height: 1100px;
+    background-color: hotpink;
+    width: 80%;
+}
+
+.upper-section {
+    height: 50%;
+    background-color: indigo;
+}
+
+.box{
+    position: relative;
+    height: 100%;
+    width: 30%;
+    background-color: brown;
+}
+.box.float-left {
+    margin-right: 5%;
+}
+
