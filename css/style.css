@@ -10,8 +10,12 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
+}
+
+.w-50 {
+    width: 50%;
 }
 
 .clearfix::after {
@@ -38,12 +42,47 @@ body {
     text-transform: uppercase;
 }
 
+.list-inline a:not(.btn):hover {
+    color: #7cbb02;
+}
+
+/* bottoni */
+.btn {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 20px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn-blue {
+    background-color: #0c325a;
+    border: 1px solid white;
+}
+.btn-blue:hover {
+    background-color: lightslategray;
+    
+    color: #7cbb02;
+}
+.btn-green {
+    background-color: #7cbb02;
+    border: 1px solid #7cbb02;
+}
+.btn-green:hover {
+    background-color: lightslategray;
+    border: 1px solid #7cbb02;
+    color: #7cbb02;
+}
+
 header {
     height: 550px;
     background-color: #0c325a;
     background-image: url(../img/background-header.png);
     background-position: 112% 163%;
-    background-size: 65% auto;
+    background-size: 60% auto;
     background-repeat: no-repeat;
 }
 
@@ -53,9 +92,8 @@ header {
     vertical-align: middle;
 }
 .header-logo {
-    width: 15%;
+    width: 10%;
     height: 100%;
-    
 }
 
 .header-logo img {
@@ -64,8 +102,17 @@ header {
 }
 
 .nav-left {
-    width: 45%;
+    width: 40%;
     height: 100%;
     text-align: left;
 }
 
+.nav-right {
+    width: 40%;
+    height: 100%;
+    text-align: right;
+}
+
+.float-right {
+    float: right;
+}
