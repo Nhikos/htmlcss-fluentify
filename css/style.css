@@ -23,10 +23,29 @@ body {
     display: table;
     clear: both;
 }
+
 .float-left {
     float: left;
 }
+.float-right {
+    float: right;
+}
 
+h1 {
+    color: white;
+    font-size: 55px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+h3 {
+    color: black;
+    font-size: 25px;
+    font-weight: 600px;
+}
+
+/* HEADER */
 .list-inline {
     list-style: none;
 }
@@ -79,6 +98,7 @@ body {
     padding: 20px;
     font-size: 14px;
 }
+/* /bottoni */
 
 header {
     height: 550px;
@@ -116,11 +136,6 @@ header {
     text-align: right;
 }
 
-.float-right {
-    float: right;
-}
-
-
 .jumbotron {
     position:relative;
     height: 470px;
@@ -133,10 +148,10 @@ header {
     transform: translateY(-50%)
 }
 
-h1 {
-    color: white;
-    font-size: 55px;
-    font-weight: 600;
-    margin-bottom: 30px;
-    letter-spacing: 2px;
+/* /HEADER */
+.intro {
+    height: 130px; /* da modificare in seguito */
+    background-color: grey;
+    text-align: center;
+    line-height: 65px;
 }
