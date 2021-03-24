@@ -183,13 +183,13 @@ header {
     background-color: hotpink;
     width: 75%;
 }
-
+/* SEZIONE SUPERIORE */
 .upper-section {
     height: 50%;
     background-color: indigo;
 }
 
-.box{
+.upper-section > .box{
     position: relative;
     height: 100%;
     width: 30%;
@@ -197,7 +197,7 @@ header {
     text-align: center;
     vertical-align: middle;
 }
-.box.float-left {
+.upper-section > .box.float-left {
     margin-right: 5%;
 }
 
@@ -206,4 +206,29 @@ header {
     height: 35%;
     width: auto;
     margin: 6% auto;
+}
+/* /SEZIONE SUPERIORE */
+
+/* SEZIONE INFERIORE */
+.lower-section {
+    height: 50%;
+
+}
+.lower-section > .box {
+    position: relative;
+    height: 100%;
+    width: 48%;
+    background-color: khaki;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#img-sx {
+    height: 100%;
+    padding: 6% 10%;
+}
+
+.lower-section > .box.float-right {
+    padding: 3% 17% 13% 5%;
+    text-align: left;
 }
