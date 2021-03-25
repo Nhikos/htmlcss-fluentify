@@ -53,7 +53,11 @@ h3 {
 h4 {
     color: black;
     font-size: 26px;
-    padding-top: 1.6%;
+}
+
+hr {
+    margin: 2% 0;
+    border: 1px solid lightgrey;
 }
 
 .hr_box {
@@ -168,11 +172,10 @@ header {
 
 /* BANNER INTRO */
 .grey-banner {
-    height: 130px; /* da modificare in seguito */
+    padding: 30px 0;
     background-color: lightgrey;
 }
 .grey-banner > .text {
-    height : 130px;
     text-align: center;
     vertical-align: middle;
     line-height: 35px;
@@ -180,14 +183,9 @@ header {
 .description-text {
     font-size: 20px;
     color: grey;
-    padding-bottom: 20px;
 }
 /* /BANNER INTRO */
 
-.container:nth-child(2) {
-    height: 1200px;
-    width: 75%;
-}
 /* SEZIONE SUPERIORE */
 .upper-section {
     height: 50%;
@@ -206,7 +204,7 @@ header {
 
 .icon {
     display: block;
-    height: 35%;
+    height: 200px;
     width: auto;
     margin: 6% auto;
 }
@@ -226,7 +224,7 @@ header {
 }
 
 #img-sx {
-    height: 100%;
+    width: 100%;
     padding: 6% 10%;
 }
 
@@ -234,7 +232,58 @@ header {
     padding: 3% 9% 13% 5%;
     text-align: left;
 }
+/* /SEZIONE INFERIORE */
 
-.container:nth-child(3) {
-    
+/* FOOTER */
+.boxe.float-right {
+    width: 50%;
+    text-align: right;
 }
+
+#piano_link {
+    text-decoration: none;
+    color: black;
+    font-size: 36px;
+    vertical-align: middle;
+}
+#piano_link:hover{
+    color: #7cbb02;
+}
+
+#select {
+    position: relative;
+    display: inline-block;
+    padding: 0 50px 0px 0;
+    border-bottom: 1px solid lightslategray;
+    line-height: 25px;
+    margin: 0 30px 0 30px;
+}
+#select:hover {
+    color: #7cbb02;
+}
+
+footer {
+    line-height: 80px;
+}
+
+#arrow {
+    position: absolute;
+    right: 0;
+    color: grey;
+}
+
+#linguetta {
+    width: 21%;
+    display: inline-block;
+    position: relative;
+    position: fixed;
+    right: 0;
+    bottom: -3px;
+
+}
+
+#help_text {
+    color: white;
+    text-decoration: none;
+}
+/* /FOOTER */
